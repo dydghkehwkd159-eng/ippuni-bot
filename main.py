@@ -91,4 +91,6 @@ async def list_queue(interaction: discord.Interaction):
         msg = "\n".join([f"{i+1}. {url}" for i, url in enumerate(queue[:20])])
         await interaction.response.send_message(f"🎵 **대기열 (총 {len(queue)}곡)**\n{msg}")
 
-bot.run("YOUR_DISCORD_TOKEN")
+import os
+
+bot.run(os.getenv("DISCORD_TOKEN"))
