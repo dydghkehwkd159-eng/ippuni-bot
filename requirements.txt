@@ -3,3 +3,4 @@ yt_dlp
 PyNaCl
 ffmpeg-python
 asyncio
+audioop-lts
