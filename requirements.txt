@@ -1,7 +1,6 @@
 discord.py==2.3.2
 yt_dlp
+youtube_dl
 PyNaCl
 ffmpeg-python
 asyncio
-audioop-lts==0.2.1
-youtube_dl
