@@ -4,3 +4,4 @@ PyNaCl
 ffmpeg-python
 asyncio
 audioop-lts==0.2.1
+youtube_dl
