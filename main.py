@@ -2,7 +2,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 import asyncio
-import youtube_dl
+import yt_dlp as youtube_dl
 import random
 
 intents = discord.Intents.default()
