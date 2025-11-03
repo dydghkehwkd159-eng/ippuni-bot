@@ -1,5 +1,6 @@
-discord.py==2.3.2
-yt_dlp
-PyNaCl
-ffmpeg-python
-asyncio
+services:
+  - type: web
+    name: ippuni-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
