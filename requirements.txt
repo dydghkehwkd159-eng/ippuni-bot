@@ -1,0 +1,5 @@
+discord.py==2.3.2
+yt_dlp
+PyNaCl
+ffmpeg-python
+asyncio
